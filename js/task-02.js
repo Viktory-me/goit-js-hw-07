@@ -11,6 +11,6 @@ const ingredients = [
  const ingredient=ingredients.map( option=> {
    const liEl=document.createElement('li');
    liEl.textContent=option;
-   return liEl;})
+   return liEl;});
    
 ingredientEl.append(...ingredient);
